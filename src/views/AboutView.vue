@@ -40,21 +40,5 @@
 </template>
 
 <script setup lang="ts">
-const members = [
-  {
-    name: 'Mahdi Zareei Ph.D .',
-    position: 'Team leader',
-    photo: new URL('@/assets/members/Mahdi45.jpg', import.meta.url).href,
-    description:
-      "Mahdi Zareei (Senior Member, IEEE), a distinguished researcher and professor, earned his M.Sc. in Computer Networks from the University of Science, Malaysia in 2011 and a Ph.D. from the Malaysia-Japan International Institute of Technology, University of Technology, Malaysia in 2016. In 2017, he joined Tecnologico de Monterrey's School of Engineering and Sciences as a Postdoctoral Fellow, advancing to Research Professor in 2019. His research interests include applied machine learning and natural language processing. He is a Level I member of the Mexican National Researchers System (SNI I) and serves as an Associate Editor for IEEE ACCESS, PLOS One, and Ad Hoc & Sensor Wireless Networks Journals.",
-    address: 'Tecnologico de Monterrey, Zapopan 45201',
-    email: 'm.zareei@tec.mx',
-    links: [
-      { label: 'Google Scholar', url: 'https://scholar.google.com/citations?user=IhVgxzAAAAAJ' },
-      { label: 'LinkedIn', url: 'https://www.linkedin.com/in/mzareei/' },
-      { label: 'Researcher Profile', url: 'https://research.tec.mx/vivo-tec/display/PID_314448' },
-    ],
-  },
-  // Add more members here
-]
+import { members } from '@/membersData'
 </script>
