@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue'
 import ProgressView from '../views/ProgressView.vue'
+import ProfileView from '../components/ProfileView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -17,9 +18,15 @@ const router = createRouter({
       component: AboutView,
     },
     {
-      path: '/progress',
-      name: 'progress',
+      path: '/updates',
+      name: 'updates',
       component: ProgressView,
+    },
+    {
+      path: '/profile/:email',
+      name: 'profile',
+      component: ProfileView,
+      props: true,
     },
   ],
 })

@@ -1,6 +1,6 @@
 <template>
   <section class="flex flex-col items-center justify-center min-h-[60vh] text-center">
-    <h1 class="text-3xl md:text-5xl font-bold mb-4 text-gray-900">Project Progress</h1>
+    <h1 class="text-3xl md:text-5xl font-bold mb-4 text-gray-900">Project Updates</h1>
     <p class="text-lg text-gray-600 max-w-2xl mb-8">
       Stay up to date with the latest advancements and milestones of the MindTrack project.
     </p>
